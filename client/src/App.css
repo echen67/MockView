@@ -1,0 +1,135 @@
+.topbar {
+  display: flex;
+  background: #494D5B;
+  height: 60px;
+  align-items: center;
+}
+
+.title {
+  display: inline;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  margin: 0px;
+}
+
+.logo {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.dashboard-button-bg {
+  background: #666C80;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.dashboard-button-text {
+  font-family: Prompt;
+  /* font-size: 16px; */
+  font-weight: 400;
+  color: #BFC5D9;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.dashboard-button {
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 20px;
+  background-color: #666C80;
+  border: none;
+  outline: none;
+  color: #BFC5D9;
+  font-family: Prompt;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.topbar-right {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name {
+  font-family: Prompt;
+  color: #BFC5D9;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.schedule-button {
+  background-color: #777BA4;
+  color: white;
+  height: 60px;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+  border: none;
+  font-family: Prompt;
+  font-size: 16px;
+}
+
+.schedule-button:hover {
+  background-color: #8C90BF;
+  cursor: pointer;
+}
+
+.schedule-button:active {
+  outline: 0;
+}
+
+.schedule-button:focus {
+  outline: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
