@@ -1,3 +1,7 @@
+body {
+  background-color: #F0F1F7;
+}
+
 .topbar {
   display: flex;
   background: #494D5B;
@@ -93,6 +97,133 @@
 
 .schedule-button:focus {
   outline: 0;
+}
+
+.body-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ranking-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  min-width: 400px;
+  height: 500px;
+  margin-right: 60px;
+  border-radius: 5px;
+  background-color: #E1E2EA;
+}
+
+.rank-title-logo {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.rank-title {
+  margin-left: 20px;
+}
+
+.rank-logo {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.current-rank {
+  font-family: Prompt;
+  font-size: 16px;
+  color: #494D5B;
+  margin: 10px 0px 0px 0px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.rank {
+  font-family: Prompt;
+  font-size: 50px;
+  font-weight: 500;
+  color: #494D5B;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.points {
+  font-family: Prompt;
+  font-size: 36px;
+  font-weight: 600;
+  color: #494D5B;
+  text-align: center;
+  margin: 0px;
+}
+
+.points-next {
+  font-family: Prompt;
+  font-size: 20px;
+  font-weight: 500;
+  color: #494D5B;
+  text-align: center;
+  margin: 0px;
+}
+
+.points-progress {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 0px;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-dasharray: 629;
+  stroke-dashoffset: 0;  /* amount remaining */
+}
+
+.points-help {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: Prompt;
+  font-weight: 600;
+  font-size: 20px;
+  color: #494D5B;
+}
+
+table {
+  width: 800px;
+  background-color: #494D5B;
+  border-radius: 5px;
+}
+
+thead {
+  background-color: #666C80;
+  border: #666C80;
+}
+
+tr {
+  height: 50px;
+  color: #BFC5D9;
+  border: 1px solid black;
+}
+
+th {
+  font-family: Prompt;
+  font-weight: 500;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  font-family: Prompt;
+  font-weight: 400;
 }
 
 .App {
